@@ -52,7 +52,7 @@ class KafkaConsumer:
             self.consumer = AvroConsumer(self.broker_properties)
         else:
             self.consumer = Consumer(self.broker_properties)
-            pass
+            
 
         #
         #
